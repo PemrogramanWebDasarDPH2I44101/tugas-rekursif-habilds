@@ -20,7 +20,7 @@ rekursif(5);
 echo "<br>/*====================================================================================*/<br><br>";
 
 function recursive($l, $g) {
-	global $col,$print;
+	global $col;
     recursive2($col, $l, $g);
     echo "<br>";
     if (++$l < $col){
